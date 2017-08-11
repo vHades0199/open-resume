@@ -1,0 +1,60 @@
+.container.bg-layout
+  .row
+    .col-sm-3
+      br
+      h1.text-nowrap
+        = firstname+' '
+        small.text-muted= lastname
+      p
+        img.icon32(src='/images/infos/home.png')
+        = ' '+address
+      p
+        img.icon32(src='/images/infos/phone.png')
+        = ' '+phone
+      p
+        img.icon32(src='/images/infos/skype.png')
+        = ' '+skype
+      p
+        img.icon32(src='/images/infos/gmail.png')
+        = ' '+email
+    .col-sm-9.sep-page
+      br
+      br
+      .sep-header
+        img.icon32(src='/images/infos/briefcase.png')
+        h3 EXPERIENCES
+      ul.list-unstyled
+        each val in exps
+          li.non-skew
+            br
+            h5.text-color= val.title
+            strong.dark-text-color= val.location + ' | ' + val.time
+          if val.desc
+            each desc in val.desc
+              li.non-skew= desc
+      .sep-header
+        img.icon32(src='/images/infos/skills.png')
+        h3 SKILLS
+      .row
+        .col-sm-4
+          ul.list-unstyled.skills
+            each val in keySkills
+              li.non-skew
+                img.icon48(src='/images/skills/'+(val.img?val.img:val.name.toLowerCase())+'.png')
+                small= val.name
+                p.dark-text-color
+                  - var i = 0;
+                  while i < val.rating
+                    - i++;
+                    i.fa.fa-circle
+                  while i < 10
+                    - i++;
+                    i.fa.fa-circle-o
+        .col-sm-8
+          ul.non-skew
+            each val in otherSkills
+              li= val
+          br
+          ul.non-skew
+            each val in skills
+              li= val

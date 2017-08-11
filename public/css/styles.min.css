@@ -1,0 +1,6 @@
+/**
+     ** resume.
+     ** @author:  - vHades
+     ** @version: 1.0.0
+     **/
+     .icon32{width:32px;height:32px}.icon48{width:48px;height:48px}body{font-family:consolas,"Helvetica Neue",Helvetica,Arial,sans-serif}.bg-layout{background-color:#f7f7f7}.sep-page{border-left:50px solid #36a9b4;transform:skewX(-20deg)}.sep-header{background-color:#0c4a65;color:#fff;height:50px;text-transform:uppercase;margin-left:-65px;margin-bottom:10px;padding-left:65px;width:250px}.sep-header>img{margin:9px}.sep-header>*{transform:skewX(20deg)}.sep-header>h3{line-height:50px}.text-color{color:#36a9b4}.dark-text-color{color:#0c4a65}.skills>li{margin-left:50px}.sep-header>img,.skills>li>img{position:absolute;left:-50px}.non-skew{transform:skewX(20deg)}

@@ -1,0 +1,75 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "cv",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r babel-register index.js",
+    "test": "DEBUG=resume:* node ./bin/www",
+    "debug": "DEBUG=http,mail,express:*,resume:* node -r babel-register index.js",
+    "dev": "nodemon index.js --exec \"node -r babel-register\"",
+    "flow start": "flow start",
+    "flow stop": "flow stop",
+    "flow status": "flow status",
+    "flow coverage": "flow coverage"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:vHades0199/open-resume.git"
+  },
+  "keywords": [
+    "resume"
+  ],
+  "author": "vHades",
+  "license": "vHades",
+  "homepage": "https://github.com/vHades0199/open-resume",
+  "engines": {
+    "node": "8.3.0"
+  },
+  "dependencies": {
+    "babel-register": "^6.24.1",
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "keymirror": "^0.1.1",
+    "method-override": "^2.3.9",
+    "path": "^0.12.7",
+    "pug": "^2.0.0-rc.2",
+    "require-dir": "^0.3.2",
+    "morgan": "^1.8.2",
+    "superagent": "^3.5.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "browser-sync": "^2.18.13",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.2",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.1.0",
+    "flow-bin": "^0.52.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-babel": "^6.1.2",
+    "gulp-combine-mq": "^0.4.0",
+    "gulp-csso": "^3.0.0",
+    "gulp-header": "^1.8.9",
+    "gulp-newer": "^1.3.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "nodemon": "^1.11.0",
+    "prettier-eslint": "^6.4.2",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}

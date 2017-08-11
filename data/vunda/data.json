@@ -1,0 +1,87 @@
+{
+    "lastname": "Nguyễn Đức Anh",
+    "firstname": "Vũ",
+    "address": "67/1A Lũy Bán Bích, P.Tân Thới Hòa, Q.Tân Phú",
+    "phone": "0918168159",
+    "skype": "anhvu.nd.0199",
+    "email": "anhvu.nd.0199@gmail.com",
+    "keySkills": [{
+        "rating": 9,
+        "name": "jQuery"
+    }, {
+        "rating": 9,
+        "name": "Sass"
+    }, {
+        "rating": 9,
+        "name": "PugJS"
+    }, {
+        "rating": 9,
+        "name": "Css3"
+    }, {
+        "rating": 9,
+        "name": "Bootstrap"
+    }, {
+        "rating": 8,
+        "name": "Html5"
+    }, {
+        "rating": 8,
+        "name": "Gulp"
+    }, {
+        "rating": 7,
+        "name": "React"
+    }, {
+        "rating": 8,
+        "name": ".NET",
+        "img": "visualstudio"
+    }],
+    "skills": [
+        "3+ Years of experience with UI/UX, MVC 6/5/4, Razor, Angular JS 1.x, AJAX, JSON, Mobile, Bootstrap, HTML, CSS, SASS, LinQ To SQL, LinQ to Object.",
+        "2+ Years of experience with NodeJS, KeyStoneJS, Express, Gulp, Pug, KendoUI",
+        "Very well organized, planning, creative thinker, self-starter and quick learner.",
+        "Organization and management project use Bitbucket, GitHub, TFS",
+        "Use ElesticSearch to build search server and integration for product",
+        "Maintenance"
+    ],
+    "otherSkills": [
+        "Entity Framework 5, 6",
+        "Web API 3, 4",
+        "Build security server",
+        "Microsoft Visual Studio 2010 | 2012 | 2015",
+        "NodeJS, Express, Gulp"
+    ],
+    "exps": [{
+        "title": "University",
+        "location": "Open University",
+        "time": "2009-2013"
+    }, {
+        "title": "Window app",
+        "location": "TANLONG CO.,LTD",
+        "time": "2011-2013",
+        "desc": ["Build app inventory management with WPF, SQL server."]
+    }, {
+        "title": "Web Developer",
+        "location": "VINADIGITAL TECH JSC",
+        "time": "2014-2016",
+        "desc": [
+            "- 1 year | Human Capital Management Solution | Front-end developer -",
+            "Skillsets used: ASP.NET MVC, AutoMapper, SQL server 2008",
+            "AngularJS, Bootstrap, SASS, JQuery, KendoUI",
+            "- 1 year | Property Management System | UI-Developer -",
+            "Skillsets used: ASP.NET MVC, AutoMapper, SQL server 2008",
+            "AngularJS, Bootstrap, SASS, JQuery, KendoUI",
+            "- 6 months | Booking Online Solution | FullStack -",
+            "Design Entity Framework, WebApi",
+            "Build security server token base use .NET Core for SSO",
+            "Integration Elasticsearch for search hotel",
+            "Skillsets used: .NET Core, ASP.NET MVC, AutoMapper, SQL server 2008",
+            "AngularJS, Bootstrap, SASS, JQuery"
+        ]
+    }, {
+        "title": "Web Developer",
+        "location": "GYZA CO.,LTD",
+        "time": "2016-2017",
+        "desc": [
+            "UI-Developer use React, Bootstrap for client render, Pug for server render, SASS, Gulp"
+        ]
+    }]
+}

@@ -1,0 +1,19 @@
+extends ../layouts/default
+
+block content
+  .container
+    .py-sm-4.clearfix
+      h1
+        img.d-inline-block.align-middle(src='/images/logo.png', width='30', height='30', alt='')
+        |  OpenResume
+    table.table
+      thead
+        tr
+          th Name
+          th Link
+      tbody
+        each val, index in data
+          tr
+            td= val
+            - let link = '/' + index; 
+            td: a(href=link)= link
